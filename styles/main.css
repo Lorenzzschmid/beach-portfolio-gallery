@@ -1,0 +1,64 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../images/corral-ge267f0a9b_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+body .images-container .ocean {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 45rem;
+  height: 30rem;
+  z-index: 0;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  border: 1rem white solid;
+  border-bottom: 5rem white solid;
+}
+body .images-container .ocean:hover {
+  z-index: 1;
+  transform: rotate(0deg);
+  transition-delay: 20ms;
+  transition-duration: 2.5s;
+  filter: grayscale(0%);
+  opacity: 1;
+}
+body .images-container .pictures1 {
+  position: relative;
+  left: 6rem;
+  top: 15rem;
+  background-image: url(../../images/storm.jpg);
+  transform: rotate(-20deg);
+}
+body .images-container .pictures2 {
+  position: relative;
+  left: 15rem;
+  bottom: 27rem;
+  background-image: url(../../images/storm2.jpg);
+  transform: rotate(-10deg);
+}
+body .images-container .pictures3 {
+  position: relative;
+  left: 28rem;
+  bottom: 58rem;
+  background-image: url(../../images/storm3.jpg);
+  transform: rotate(25deg);
+}
+body .images-container .pictures4 {
+  position: relative;
+  left: 45rem;
+  bottom: 100rem;
+  background-image: url(../../images/storm4.jpg);
+  transform: rotate(-30deg);
+}
+body .images-container .pictures5 {
+  position: relative;
+  left: 58rem;
+  bottom: 127rem;
+  background-image: url(../../images/storm5.jpg);
+  transform: rotate(20deg);
+}
+
+/*# sourceMappingURL=main.css.map */
