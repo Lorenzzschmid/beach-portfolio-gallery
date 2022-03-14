@@ -9,3 +9,61 @@ body {
         width: 100vw;
         height: 100vh;
         // class for shared properties of the images
+        .ocean {
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 45rem;
+            height: 30rem;
+            z-index: 0;
+            filter: grayscale(100%);
+            opacity: 0.8;
+            border: 1rem white solid;
+            border-bottom: 5rem white solid;
+          }
+          // on :hover - appearance and rotation.
+          .ocean:hover {
+            z-index: 1;
+            transform:rotate(0deg);
+            transition-delay: 20ms;
+            transition-duration: 2.5s;
+            filter: grayscale(0%);
+            opacity: 1;
+          }
+          // specification for each image like rotation differentiation, and position. 
+          .pictures1 {
+            position: relative;
+            left: 10rem;
+            top: 22rem;
+            background-image: url(../../images/storm.jpg);
+            transform: rotate(-20deg);
+          }
+          .pictures2 {
+            position: relative;
+            left: 15rem;
+            bottom: 17rem;
+            background-image: url(../../images/storm2.jpg);
+            transform: rotate(-10deg);
+          }
+          .pictures3 {
+            position: relative;
+            left: 28rem;
+            bottom: 52rem;
+            background-image: url(../../images/storm3.jpg);
+            transform: rotate(25deg);
+          }
+          .pictures4 {
+            position: relative;
+            left: 50rem;
+            bottom: 70rem;
+            background-image: url(../../images/storm4.jpg);
+            transform: rotate(-30deg);
+          }
+          .pictures5 {
+            position: relative;
+            left: 55rem;
+            bottom: 96rem;
+            background-image: url(../../images/storm5.jpg);
+            transform: rotate(20deg);
+          }
+        }
+      }
