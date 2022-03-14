@@ -1,0 +1,11 @@
+body {
+    width: 95vw;
+    height: 30vh;
+    background-image: url(../../images/corral-ge267f0a9b_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // the image-container
+    .images-container {
+        width: 100vw;
+        height: 100vh;
+        // class for shared properties of the images
